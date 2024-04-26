@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@300..900&display=swap');
+@font-face {
+    font-family: 'Robo';
+    src: url("/HTML+CSS/d010-site android/src/font/idroid.otf")format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 15px 0px;
+}
+body{
+    background-color: #04BF8A;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: auto;
+}
+header{
+    background: linear-gradient(180deg, #41e086,#025940);
+    height: 200px;
+    text-align: center;
+    padding: 60px;
+}
+header > h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-shadow:  1px 0px 0px rgba(0, 0, 0, 0.815);
+}
+header > p{
+    text-align: center;
+    text-shadow:  1px 0px 0px rgba(0, 0, 0, 0.815);
+}
+nav{
+    text-align: justify;
+    margin-top: 10px;
+}
+nav > a{
+    color: rgba(240, 248, 255, 0.911);
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s;
+}
+nav > a:hover{
+    background-color: rgba(240, 248, 255, 0.575);
+    border-radius: 4px;
+}
+main{
+    color: black;
+    background-color: aliceblue;
+    margin: auto;
+    width: 70%; 
+    padding: 15px;
+    align-items: normal; 
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+}
+main > section > h1{
+    font-family: 'Robo';
+    color: #025940;
+}
+main > section > h2{
+    font-family: 'Robo';
+    color: #025940;
+    background: linear-gradient(90deg, #41e086, transparent);
+}
+main > #secao01 img{
+    width: 100%;
+}
+main > .secao02 #img1{
+    width: 100%;
+}
+main > .secao02 #img2{
+    display: block;
+    margin: auto;
+}
+main > section > p > a{
+    color: #025940;
+    font-weight: bold;;
+    text-decoration: none;
+    background-color: #41e086;
+}
+span{
+    color: #025940; 
+    font-weight: bold
+}
+.secaovideo{
+    margin: 20px -15px;
+    height: 500px;
+    background-color: #025940;
+}
+#video{
+    width: 100%;
+    height: 500px;
+    padding: 15px 25px;
+    margin: auto;
+}
+div > h3{
+    background-color: #025940;
+    padding: 6px;
+    padding-left: 15px;
+    color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+}
+div{
+    border-radius: 10px;
+    margin: 30px 10px;
+    background-color: #04BF8A;
+}
+div > p{
+    padding: 18px;
+    font-weight: 100;
+}
+li{
+    list-style-type: disclosure-closed;
+    text-decoration: underline;
+}
+div > #l1{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+div > #l2{
+    margin-left: 500px;
+    margin-top: -190px;
+}
+#para{
+    margin-top: 30px;
+}
+footer{
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #025940;
+}

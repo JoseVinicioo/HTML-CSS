@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+        body {
+            font-family: 'Work Sans';
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+
+            h1 {
+                /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+                font-family: 'Work Sans', sans-serif;
+                font-weight: bolder;
+                font-size: 2.5em;
+                font-style: italic
+            ;*/
+                font: italic bolder 2.5em 'Work Sabs', sans-serif;
+            }
+            h2{
+                font: bold 2em 'Work Sans', sans-serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia perspiciatis doloremque esse perferendis sequi
+        ipsum vero, nostrum nesciunt possimus, quas nisi, illum facere corrupti! Ex quisquam consectetur nobis eos
+        perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam est reiciendis illum pariatur incidunt ut
+        magnam, ipsum magni esse qui reprehenderit placeat. A eos adipisci cumque inventore nisi quam.</p>
+    <h2>Subtitulo do exercício</h2>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto mollitia vitae soluta magni repellat sequi nemo
+    ipsa provident, dolorem dicta placeat corrupti, reprehenderit fugiat! Nulla impedit dignissimos distinctio sit vel.
+</body>
+
+</html>
